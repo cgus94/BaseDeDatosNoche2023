@@ -37,11 +37,11 @@ INSERT INTO facturas (letra, numero, fecha, monto) VALUES
 ('C', 100, '2022-01-01', 50.75)
 ;
 INSERT INTO articulos(codigo,nombre,precio,stock) VALUES
-(1, 'Serrucho de mano', 16.99, 50),
-(2, 'Pistola de silicona caliente', 11.99, 20),
-(3, 'Escalera de aluminio de 6 pies', 39.99, 60),
+(1, 'Serrucho de mano', 17, 50),
+(2, 'Pistola de silicona caliente', 12, 20),
+(3, 'Escalera de aluminio de 6 pies', 40, 60),
 (4, 'Tornillos para madera de 2-1/2 pulgadas', 9.50, 80),
-(5, 'Candado de seguridad resistente', 8.99, 100)
+(5, 'Candado de seguridad resistente', 9, 100)
 ;
 show tables;
 describe clientes;
